@@ -1,0 +1,142 @@
+{
+  "tokens": {
+    "discord": "",
+    "stelch": ""
+  },
+  "debugging": {
+    "debugging": true,
+    "screaming_channel": "801438430172938291",
+    "error_channel": "801438445293535243"
+  },
+  "administrators": [
+    "317236321099710467",
+    "264184409047957514"
+  ],
+  "personalization": {
+    "colors": {
+      "inform_basic": "#3d82cc",
+      "inform_error": "#cc3d3d",
+      "inform_dev": "#42f54b"
+    }
+  },
+  "commandManager": {
+    "prefix": "."
+  },
+  "parameters": {
+    "hoist_offset": 5
+  },
+  "database": {
+    "host": "",
+    "keyspace": "",
+    "user": "",
+    "pass": ""
+  },
+  "maps": {
+    "ASCENT": {
+      "disabled": false,
+      "requireUnanimous": false
+    },
+    "HAVEN": {
+      "disabled": false,
+      "requireUnanimous": false
+    },
+    "BIND": {
+      "disabled": false,
+      "requireUnanimous": false
+    },
+    "SPLIT": {
+      "disabled": false,
+      "requireUnanimous": false
+    },
+    "ICEBOX": {
+      "disabled": false,
+      "requireUnanimous": false
+    },
+    "BREEZE": {
+      "disabled": false,
+      "requireUnanimous": false
+    }
+  },
+  "guilds": {
+    "746962575710879765" : {
+      "type": "manage",
+      "webSupport": true
+    },
+    "537887361292304385": {
+      "type": "client",
+      "queueChannel": "749051814795804762",
+      "supportRole": "749177452689096746",
+      "webSupport": false,
+      "captainPriority": [
+        {
+          "type": "ROLE",
+          "name": "Ignition Champions"
+        },
+        {
+          "type": "ROLE",
+          "name": "Event Hands"
+        },
+        {
+          "type": "ROLE",
+          "name": "Radiant"
+        },
+        {
+          "type": "ROLE",
+          "name": "Immortal"
+        },
+        {
+          "type": "ROLE",
+          "name": "Diamond"
+        },
+        {
+          "type": "ROLE",
+          "name": "Platinum"
+        },
+        {
+          "type": "ROLE",
+          "name": "Gold"
+        },
+        {
+          "type": "ROLE",
+          "name": "@everyone"
+        }
+      ]
+    },
+    "767649315757752331": {
+      "type": "client",
+      "queueChannel": "796977734400213003",
+      "supportRole": "772519048251703356",
+      "webSupport": true,
+      "captainPriority": [
+        {
+          "type": "ROLE",
+          "name": "Ignition Champions"
+        },
+        {
+          "type": "ROLE",
+          "name": "Radiant"
+        },
+        {
+          "type": "ROLE",
+          "name": "Immortal"
+        },
+        {
+          "type": "ROLE",
+          "name": "Diamond"
+        },
+        {
+          "type": "ROLE",
+          "name": "Platinum"
+        },
+        {
+          "type": "ROLE",
+          "name": "Gold"
+        },
+        {
+          "type": "ROLE",
+          "name": "@everyone"
+        }
+      ]
+    }
+  }
+}

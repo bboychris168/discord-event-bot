@@ -1,0 +1,44 @@
+<StelchService>
+    <DeployWith first="true">
+        <tag>10mans-database</tag>
+    </DeployWith>
+    <Info>
+        <Name>Valorant OCE 10 Mans bot</Name>
+        <Owner>049bf02a-df04-4935-972b-a38cc7f52c01</Owner>
+    </Info>
+    <Technical>
+        <Entry>
+            <Type>package.json</Type>
+            <Arg>start bot</Arg>
+        </Entry>
+        <TechModules>
+            <TransperantCompute/>
+            <ScaleMode/>
+        </TechModules>
+        <Conf>
+            <Networking>
+                <Domain>ext-ocegg.stelch.net</Domain>
+                <IPAddress>117.121.243.110</IPAddress>
+                <Filewall>
+                    <Outbound>
+                        <Rule port="0-65535" action="pass" />
+                    </Outbound>
+                    <Inbound>
+                        <Rule port="0-65535" action="drop" />
+                        <Rule port="80" action="pass" />
+                        <Rule port="443" action="pass" />
+                    </Inbound>
+                </Filewall>
+            </Networking>
+            <TransperantCompute>
+                <Enabled>TRUE</Enabled>
+            </TransperantCompute>
+            <ScaleMode>
+                <Enabled>TRUE</Enabled>
+                <Type>
+                    <Ref>/Serices/Templates/ryan/DiscordBot</Ref>
+                </Type>
+            </ScaleMode>
+        </Conf>
+    </Technical>
+</StelchService>
